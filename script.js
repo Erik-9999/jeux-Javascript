@@ -6,7 +6,7 @@ $(function () {
 
     $('.btn-new').click(function(e){
         e.preventDefault();
-        alert('Veuillez choisir un jouer pour commencer à jouer');
+        alert('Veuillez choisir un joueur pour commencer');
         init();
     });
 
@@ -82,6 +82,7 @@ $(function () {
         $('#player-0').removeClass('clicked');        
      }); 
 
+    // en cours de developpement
     $('.btn-skip').click( function(){
         selectPlayer()
         activePlayer === 0 ? activePlayer = 1: activePlayer = 0;
@@ -93,7 +94,8 @@ $(function () {
         $('#player-1').hasClass('active');
         
     });
-    
+
+    //
 
     $('.btn-roll').click( function() {
         if(gamePlaying) {
