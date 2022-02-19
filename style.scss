@@ -22,6 +22,12 @@
     font-size:0.6em;
     grid-template-columns: 75px 75px 75px !important;   
   }
+  header h1{
+    font-size:1.8em !important;
+  }
+  header button{
+    font-size:1.2em !important;
+  }
 
   div.container{
     height:85%;   
@@ -61,6 +67,9 @@ html, body {
   padding: 0;
   background-color: whitesmoke;
   font-size: 10px;
+  background-image: url(Images/backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -77,10 +86,12 @@ header {
 
 header h1 {
   text-align: center;
-  color: blue; 
+  color: rgb(136, 62, 2); 
   width:50%;
   height: 100%; 
   margin-top: 2.8vh;
+  font-weight: 700;
+  font-size:4rem;
   
 }
 .rules{
@@ -91,9 +102,12 @@ header h1 {
     border: none !important;
     font-size:1.70rem;
     border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
  }
 
-
+ .rules:hover{
+   color: red;
+ }
 
 main {
   position: relative;
@@ -219,15 +233,17 @@ div.score {
 footer {
   position: relative;
   width: 90%;
-  height: 10vh;
+  height: 9vh;
   left: 5%;
   top: 0.6vh;
   border-radius: 5px;
   border: 1px solid black;
 }
 
-footer h3 {
+footer h3,footer p{
   text-align: center;
-  color: blue;
-  margin-top: 3vh;
+  color: rgb(136, 62, 2);
+  margin-top:1.5vh;
+  font-weight: 700;
+  font-size: 1.8em;
 }
