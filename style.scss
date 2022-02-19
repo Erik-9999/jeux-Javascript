@@ -91,9 +91,9 @@ header h1 {
   color: rgb(136, 62, 2); 
   width:50%;
   height: 100%; 
-  margin-top: 2.8vh;
+  
   font-weight: 700;
-  font-size:4rem;
+  font-size:3.5rem;
   
 }
 .rules{
@@ -247,7 +247,7 @@ div.score {
 footer {
   position: relative;
   width: 90%;
-  height: 9vh;
+  height: 15vh;
   left: 5%;
   top: 0.6vh;
   border-radius: 5px;
@@ -255,9 +255,11 @@ footer {
 }
 
 footer h3,footer p{
+  
   text-align: center;
   color: rgb(136, 62, 2);
-  margin-top:1.5vh;
+  margin-top:1vh;
+  height:20%;
   font-weight: 700;
   font-size: 1.8em;
 }
