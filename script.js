@@ -82,20 +82,7 @@ $(function () {
         $('#player-0').removeClass('clicked');        
      }); 
 
-    // en cours de developpement
-    $('.btn-skip').click( function(){
-        selectPlayer()
-        activePlayer === 0 ? activePlayer = 1: activePlayer = 0;
-        throws = 0;
-        $('current-0').text('0');
-        $('current-1').text('0');
-
-        $('#player-0').hasClass('active');
-        $('#player-1').hasClass('active');
-        
-    });
-
-    //
+   
 
     $('.btn-roll').click( function() {
         if(gamePlaying) {

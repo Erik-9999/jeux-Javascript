@@ -177,6 +177,11 @@ section {
   color: #ec0a0a;
 }
 
+.players:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px #413c3c;
+          box-shadow: 0px 0px 30px 0px #413c3c;
+}
+
 .active {
   background-color: #f5eeee;
 }
@@ -205,9 +210,13 @@ div.container.actionThimble {
   border-radius: 200px;
 }
 
-.rolldice a, .skip a {
+.rolldice a {
   text-decoration: none;
   color: #e96004;
+}
+
+.rolldice a:hover {
+  color: #ffef09;
 }
 
 .showThimble {
