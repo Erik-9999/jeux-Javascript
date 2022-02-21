@@ -4,11 +4,51 @@
   src: local("fonts/Lato-LightItalic"), url(fonts/Lato-LightItalic.ttf);
 }
 
+@media screen and (max-width: 440px) {
+  main {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  section {
+    font-size: 0.6em;
+    -ms-grid-columns: 110px 100px 110px !important;
+        grid-template-columns: 110px 100px 110px !important;
+  }
+  header h1 {
+    font-size: 1.8em !important;
+  }
+  header button {
+    font-size: 1.2em !important;
+  }
+  div.container {
+    height: 85%;
+  }
+  div.container.actionThimble {
+    background-color: #036403;
+    border-radius: 200px;
+  }
+  div.score {
+    width: 100% !important;
+  }
+  #player0, #player1 {
+    margin-left: -10px !important;
+  }
+  .score {
+    margin-left: -3px !important;
+  }
+  footer {
+    margin: 10px 0 0 0 !important;
+    width: 100% !important;
+    left: 0%  !important;
+    height: 8vh !important;
+  }
+}
+
 @media screen and (max-width: 568px) {
   section {
     font-size: 0.6em;
-    -ms-grid-columns: 75px 75px 75px !important;
-        grid-template-columns: 75px 75px 75px !important;
+    -ms-grid-columns: 75px 75px 75px;
+        grid-template-columns: 75px 75px 75px;
   }
   header h1 {
     font-size: 1.8em !important;
@@ -72,10 +112,10 @@ header {
 
 header h1 {
   text-align: center;
-  color: #883e02;
+  color: #5f5d5b;
   width: 50%;
   height: 100%;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 3.5rem;
 }
 
@@ -216,11 +256,12 @@ div.container.actionThimble {
 
 .rolldice a {
   text-decoration: none;
-  color: #e96004;
+  color: #1a1614;
+  font-weight: 700;
 }
 
 .rolldice a:hover {
-  color: #ffef09;
+  color: #e20000;
 }
 
 .showThimble {
@@ -255,7 +296,7 @@ div.score {
 footer {
   position: relative;
   width: 90%;
-  height: 15vh;
+  height: 12vh;
   left: 5%;
   border-radius: 5px;
   border: 1px solid black;
@@ -263,7 +304,7 @@ footer {
 
 footer h3, footer p {
   text-align: center;
-  color: #883e02;
+  color: #0f0f0f;
   margin-top: 1vh;
   height: 20%;
   font-weight: 700;
