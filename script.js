@@ -151,6 +151,6 @@ $(function () {
     $('.btn-new').init();
 
     $('.rules').click(function(){
-        alert('les regles sont simples, le premier joueur arrivé à 100 points à gagner. Cliquer sur \'Player\' pour changer de joueur, si tirez un 1 au dé et vous avez perdu');
+        alert('Les regles sont simples, le premier joueur arrivé à 100 points à gagner. Cliquer sur \'Player\' ou \'hold\' pour changer de joueur, si tirez un 1 au dé il y a automatiquement un changement de joueur');
     })
 }) 
