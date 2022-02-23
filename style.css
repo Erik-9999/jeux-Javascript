@@ -105,6 +105,15 @@ header {
   margin-top: 1vh;
   border-radius: 20px;
   border: 1px solid black;
+  border-width: 3px;
+  border-left-style: outset;
+  border-left-color: lightgray;
+  border-right-style: outset;
+  border-right-color: darkgray;
+  border-top-style: outset;
+  border-top-color: lightgray;
+  border-bottom-style: outset;
+  border-bottom-color: darkgray;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -264,6 +273,16 @@ div.container.actionThimble {
   color: #e20000;
 }
 
+.skip a {
+  text-decoration: none;
+  color: #1a1614;
+  font-weight: 700;
+}
+
+.skip a:hover {
+  color: #e20000;
+}
+
 .showThimble {
   margin-left: auto;
   margin-right: auto;
@@ -298,8 +317,17 @@ footer {
   width: 90%;
   height: 12vh;
   left: 5%;
-  border-radius: 5px;
+  border-radius: 20px;
   border: 1px solid black;
+  border-width: 3px;
+  border-left-style: outset;
+  border-left-color: lightgray;
+  border-right-style: outset;
+  border-right-color: darkgray;
+  border-top-style: outset;
+  border-top-color: lightgray;
+  border-bottom-style: outset;
+  border-bottom-color: darkgray;
 }
 
 footer h3, footer p {

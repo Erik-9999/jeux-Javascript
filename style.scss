@@ -18,41 +18,35 @@
   border-bottom-style: outset;
   border-bottom-color: darkgray;
 }
-@media screen and (max-width: 440px) {
-main{
-  margin: 0 !important;
-  width:100% !important;
-}
 
+@media screen and (max-width: 440px) {
+  main{
+    margin: 0 !important;
+    width:100% !important;
+  }
   section{
     font-size:0.6em;
     grid-template-columns: 110px 100px 110px !important;   
   }
-
   header h1{
     font-size:1.8em !important;
   }
   header button{
     font-size:1.2em !important;
   }
-
   div.container{
     height:85%;      
   }
-
   div.container.actionThimble{
     background-color: rgb(3, 100, 3);
     border-radius:200px;
-  }
-  
+  }  
   div.score{
     width:100% !important;
   }
-
   #player0, #player1{    
     margin-left:-10px !important;  
   }
-
   .score{
     margin-left:-3px !important;
   }
@@ -76,24 +70,19 @@ main{
   header button{
     font-size:1.2em !important;
   }
-
   div.container{
     height:85%;      
   }
-
   div.container.actionThimble{
     background-color: rgb(3, 100, 3);
     border-radius:200px;
   }
-
   div.score{
     width:100% !important;
   }
-
   #player0, #player1{    
     margin-left:-10px !important;  
   }
-
   .score{
     margin-left:-3px !important;
   }
@@ -127,8 +116,7 @@ header {
   height: 10vh;
   left: 5%;
   margin-top:1vh;
-  border-radius: 20px;
-  border: 1px solid black;
+  @include border;
   justify-content:end;
 }
 
@@ -263,6 +251,16 @@ div.container.actionThimble{
   color:rgb(226, 0, 0);
 }
 
+.skip a{
+  text-decoration: none;
+  color: rgb(26, 22, 20);
+  font-weight:700;
+}
+
+.skip a:hover{
+  color:rgb(226, 0, 0);
+}
+
 .showThimble {
   margin-left: auto;
   margin-right: auto;
@@ -295,9 +293,8 @@ footer {
   width: 90%;
   height: 12vh;
   left: 5%;
+  @include border;
   
-  border-radius: 5px;
-  border: 1px solid black;
 }
 
 footer h3,footer p{
