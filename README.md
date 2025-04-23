@@ -51,5 +51,3 @@ Fonctionnalités
 Tests
 Actuellement, aucun test automatisé n'est mis en place. Les tests peuvent être effectués manuellement en interagissant avec l'interface utilisateur.
 
-Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
