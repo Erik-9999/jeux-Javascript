@@ -13,30 +13,30 @@ Installation
 
 1. **Cloner le dépôt :**
 
-   git clone https://github.com/Erik-9999/jeux-Javascript.git
-   cd jeux-Javascript
+  - git clone https://github.com/Erik-9999/jeux-Javascript.git
+  - cd jeux-Javascript
    
 2. Ouvrir le fichier index.html dans votre navigateur préféré :
 
-Double-cliquez sur le fichier index.html
-
+-Double-cliquez sur le fichier index.html
 Ou utilisez une extension comme Live Server dans VS Code
 
 Aucune dépendance externe ni installation de paquet n'est requise.
- Règles du jeu
-Cliquez sur le bouton "Lancer le dé" pour générer un nombre aléatoire entre 1 et 6.
+ 
+Règles du jeu
+- Cliquez sur le bouton "Lancer le dé" pour générer un nombre aléatoire entre 1 et 6.
 
-Le score est mis à jour en fonction du résultat.
+- Le score est mis à jour en fonction du résultat.
 
-Le jeu peut être configuré pour un ou plusieurs joueurs selon la logique implémentée.
+- Le jeu peut être configuré pour un ou plusieurs joueurs selon la logique implémentée.
 
 Structure du projet
 
 jeux-Javascript/
-├── index.html        # Structure HTML du jeu
-├── style.css         # Styles CSS
-├── script.js         # Logique JavaScript
-└── README.md         # Documentation du projet
+- ├── index.html        # Structure HTML du jeu
+- ├── style.css         # Styles CSS
+- ├── script.js         # Logique JavaScript
+- └── README.md         # Documentation du projet
 
 Fonctionnalités
 
